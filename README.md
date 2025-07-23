@@ -18,4 +18,4 @@ A hacker-themed developer portfolio built with **pure PHP** featuring:
 
 ## 🎮 Try It
 ```bash
-git clone https://github.com/yourusername/cyber-portfolio.git
+git clone https://github.com/920@Rajitha/cyber-portfolio.git
