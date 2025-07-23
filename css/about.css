@@ -1,0 +1,183 @@
+/* about.css - Custom styles for About Page */
+
+.about-page {
+    padding-top: 120px;
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    min-height: 100vh;
+}
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    border-bottom: 1px solid #0f0;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #0f0;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+    border-radius: 5px;
+}
+
+.about-content h1 {
+    font-size: 2.2rem;
+    text-shadow: 0 0 10px #0f0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.about-content p {
+    font-size: 1rem;
+    color: #0f0;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.personal-info h2 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #00ffaa;
+}
+
+.personal-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.personal-info ul li {
+    margin-bottom: 12px;
+    padding-left: 15px;
+    position: relative;
+    color: #00ffaa;
+}
+
+.personal-info ul li::before {
+    content: "> ";
+    position: absolute;
+    left: 0;
+    color: #0f0;
+    font-weight: bold;
+}
+
+/* Education Section */
+.education-section {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.education-section h2,
+.experience-section h2,
+.hobbies-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #00ff00;
+    text-shadow: 0 0 5px #0f0;
+}
+
+.timeline-item {
+    background: rgba(0, 255, 0, 0.05);
+    padding: 20px;
+    border: 1px solid #0f0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+.timeline-date {
+    font-weight: bold;
+    color: #00ffaa;
+    margin-bottom: 10px;
+}
+
+/* Experience Section */
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.experience-card {
+    background-color: rgba(0, 255, 0, 0.05);
+    border: 1px solid #0f0;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.15);
+}
+
+.experience-card h3 {
+    color: #00ffaa;
+    margin-bottom: 10px;
+}
+
+.company {
+    font-style: italic;
+    color: #0f0;
+    margin-bottom: 5px;
+}
+
+.duration {
+    color: #99ff99;
+    margin-bottom: 15px;
+}
+
+.experience-card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.experience-card ul li::before {
+    content: "> ";
+    color: #0f0;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.experience-card ul li {
+    margin-bottom: 8px;
+    color: #00ffaa;
+}
+
+/* Hobbies Section */
+.hobbies-section {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.hobby-item {
+    background-color: rgba(0, 255, 0, 0.05);
+    padding: 20px;
+    border: 1px solid #0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+    text-align: center;
+}
+
+.hobby-item i {
+    font-size: 2.5rem;
+    color: #0f0;
+    margin-bottom: 10px;
+}
+
+.hobby-item p {
+    font-size: 1rem;
+    color: #00ffaa;
+}
